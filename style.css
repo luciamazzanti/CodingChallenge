@@ -1,0 +1,77 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+  }
+
+.container {
+    background-color: rgba(0%, 0%, 0%, 0.5);
+    width: 800px;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+/* header */
+
+.logo {
+    width: 200px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header p {
+    color: rgb(94, 233, 51);
+    font-size: 25px;
+    margin: 0px 0px 10px 0px;
+}
+
+nav {
+    background-color: rgb(94, 233, 51);
+    padding: 10px 0px;
+}
+
+/* noleggi */
+
+section {
+    margin-top: 20px;
+}
+
+/* stato della carica */
+.carica {
+    height: 20px;
+    border-radius: 5px;
+}
+
+#carica1 {
+    background-color: rgb(235, 183, 100);
+    width: 280px;
+}
+
+#carica2 {
+    background-color: rgb(92, 192, 64);
+    width: 450px;
+}
+
+#carica3 {
+    background-color: rgb(176, 74, 70);
+    width: 100px;
+}
+
+/* testi */
+
+.details {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 5px 0px 2px 0px;
+}
+
+.arrow:before {
+    content: "\2192";
+}
+
